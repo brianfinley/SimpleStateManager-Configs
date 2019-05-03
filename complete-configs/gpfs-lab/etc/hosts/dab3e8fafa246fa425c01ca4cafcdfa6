@@ -1,0 +1,16 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+
+# This is the base VM from which to clone the three below
+192.168.56.10 gpfs-lab
+
+# These are the three VMs to import for the lab excercises
+192.168.56.11 gpfs-lab-c1n1
+192.168.56.12 gpfs-lab-c1n2
+192.168.56.13 gpfs-lab-c1n3
+
+# These are the next three VMs to import for the multi-cluster lab exercises
+192.168.56.21 gpfs-lab-c2n1
+192.168.56.22 gpfs-lab-c2n2
+192.168.56.23 gpfs-lab-c2n3
+
